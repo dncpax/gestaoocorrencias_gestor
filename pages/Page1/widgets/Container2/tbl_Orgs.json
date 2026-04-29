@@ -102,6 +102,9 @@
     },
     {
       "key": "primaryColumns.customColumn2.menuItems.menuItemkt1x9vxizl.onClick"
+    },
+    {
+      "key": "primaryColumns.customColumn2.menuItems.menuItem2kj0u6kj0r.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -173,6 +176,7 @@
           "isDisabled": false,
           "isVisible": true,
           "label": "Editar",
+          "onClick": "{{showModal(modal_update_Org.name);}}",
           "widgetId": "0x43wjiugh"
         },
         "menuItemkt1x9vxizl": {
