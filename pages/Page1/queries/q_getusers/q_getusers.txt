@@ -1,0 +1,4 @@
+SELECT * FROM dados."entidade" 
+WHERE ({{Checkbox1.isChecked}}='true' AND org_id={{tbl_Orgs.selectedRow.org_id}})
+OR {{Checkbox1.isChecked}}='false'
+ORDER BY entidade_id

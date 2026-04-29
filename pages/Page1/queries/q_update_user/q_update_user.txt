@@ -1,0 +1,8 @@
+UPDATE dados.entidade
+SET 
+		nome = {{this.params.nome}},
+    tipo_entidade = {{this.params.tipo_entidade}},
+    email = {{this.params.email}},
+		org_id = {{this.params.org_id}}
+WHERE entidade_id = {{this.params.entidade_id}}
+RETURNING *;

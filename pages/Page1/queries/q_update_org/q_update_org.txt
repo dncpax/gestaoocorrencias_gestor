@@ -1,0 +1,6 @@
+UPDATE dados.organizacoes
+SET 
+    designacao = {{this.params.designacao}},
+    tipo_org = {{this.params.tipo_org}}
+WHERE org_id = {{this.params.org_id}}
+RETURNING *;

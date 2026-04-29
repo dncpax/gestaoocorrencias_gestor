@@ -1,0 +1,5 @@
+INSERT INTO dados.organizacoes 
+    (designacao, tipo_org)
+VALUES 
+    ({{this.params.designacao}}, {{this.params.tipo_org}})
+RETURNING *;

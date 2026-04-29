@@ -1,0 +1,3 @@
+DELETE FROM dados.entidade
+WHERE entidade_id = {{this.params.entidade_id}}
+RETURNING *;

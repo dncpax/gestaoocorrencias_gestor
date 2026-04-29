@@ -1,0 +1,8 @@
+SELECT * FROM (VALUES 
+    ('Autarquia'),
+    ('Proteção Civil'),
+    ('CIM'),
+    ('CCDR'),
+    ('Outra')
+) AS t (tipo_org)
+ORDER BY tipo_org;

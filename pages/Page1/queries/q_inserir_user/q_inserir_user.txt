@@ -1,0 +1,8 @@
+insert into dados.entidade
+(nome, tipo_entidade, email, org_id)
+VALUES (
+	{{this.params.nome}},
+	{{this.params.tipo_entidade}},
+	{{this.params.email}},
+	{{this.params.org_id}}
+)
