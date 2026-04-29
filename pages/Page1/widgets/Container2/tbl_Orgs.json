@@ -182,7 +182,7 @@
           "isDisabled": false,
           "isVisible": true,
           "label": "Apagar",
-          "onClick": "{{q_delete_org.run().then(() => {\n  q_getorgs.run();\n  q_getusers.run();\n});}}",
+          "onClick": "{{showModal(Modal_delete_org.name);}}",
           "widgetId": "b8ctrp4uos"
         }
       },
