@@ -20,6 +20,21 @@ export default {
 		else
 			showAlert('ERRO AO INSERIR ORGANIZAÇÃO!','Error');
 	},
+	orgs_delete: async()=>{
+		//chamada pela form de update de user
+		const params = {
+			org_id: tbl_Orgs.triggeredRow.org_id
+		};
+		await q_delete_user.run(params);
+		showAlert(JSON.stringify(q_delete_org.data), 'info');
+		if(q_delete_org.responseMeta.isExecutionSuccess) {
+			closeModal(Modal_delete_org.name);
+			await q_getorgs.run();
+			q_getusers.run();
+		}
+		else
+			showAlert('ERRO AO APAGAR ORG!','Error');
+	},
 	users_create: async()=>{
 		//chamada pela form de update de user
 		const params = {

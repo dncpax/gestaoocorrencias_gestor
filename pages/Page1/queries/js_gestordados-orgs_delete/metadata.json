@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "69e109c426b2f24392357334_010235c6-59b5-4093-a08a-ce1bbe87d577",
-  "id": "Page1_js_gestordados.update_dados",
+  "gitSyncId": "69e109c426b2f24392357334_e9d9fdb9-adce-4272-b213-b61b01a1ab5e",
+  "id": "Page1_js_gestordados.orgs_delete",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "fullyQualifiedName": "js_gestordados.update_dados",
-    "name": "update_dados",
+    "fullyQualifiedName": "js_gestordados.orgs_delete",
+    "name": "orgs_delete",
     "pageId": "Page1",
-    "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": true
+    "runBehaviour": "MANUAL",
+    "userSetOnLoad": false
   }
 }

@@ -1,2 +1,2 @@
 DELETE FROM dados.organizacoes
-WHERE org_id = {{tbl_Orgs.triggeredRow.org_id}}
+WHERE org_id = {{this.params.org_id}}
