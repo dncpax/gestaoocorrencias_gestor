@@ -172,7 +172,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onSubmit": "",
+  "onSubmit": "{{js_gestordados.orgs_update();}}",
   "originalBottomRow": 48,
   "originalTopRow": 0,
   "parentColumnSpace": 6.9375,
@@ -197,13 +197,13 @@
       "cellBoxShadow": "none",
       "children": {
         "designacao": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "accessor": "designacao",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.designacao))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.designacao))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "designacao",
@@ -219,13 +219,13 @@
           "sourceData": "teste"
         },
         "dominioweb": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "accessor": "dominioweb",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "null",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.dominioweb))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.dominioweb))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "fieldType": "Text Input",
           "iconAlign": "left",
           "identifier": "dominioweb",
@@ -237,13 +237,12 @@
           "label": "Dominioweb",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "dominioweb",
-          "position": 2,
-          "sourceData": null
+          "position": 2
         },
         "org_id": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "accessor": "org_id",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "number",
@@ -263,13 +262,13 @@
           "sourceData": 107
         },
         "tipo_org": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "accessor": "tipo_org",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "boxShadow": "none",
           "children": {},
           "dataType": "string",
-          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tipo_org))(JSONForm1Copy.sourceData, JSONForm1Copy.formData, JSONForm1Copy.fieldState)}}",
+          "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.tipo_org))(JSONForm_Orgs.sourceData, JSONForm_Orgs.formData, JSONForm_Orgs.fieldState)}}",
           "fieldType": "Select",
           "identifier": "tipo_org",
           "isCustomField": false,
@@ -324,5 +323,5 @@
   "useSourceData": true,
   "version": 1,
   "widgetId": "pv7qrocpe3",
-  "widgetName": "JSONForm1Copy"
+  "widgetName": "JSONForm_Orgs"
 }

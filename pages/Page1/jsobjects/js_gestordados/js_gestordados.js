@@ -34,6 +34,23 @@ export default {
 		else
 			showAlert('ERRO AO APAGAR ORG!','Error');
 	},
+	orgs_update: async()=>{
+		//chamada pela form de update de user
+		const params = {
+			designacao: JSONForm_Orgs.formData.designacao,
+	    tipo_org: JSONForm_Orgs.formData.tipo_org,
+			org_id: JSONForm_Orgs.formData.org_id
+		};
+
+		await q_update_org.run(params);
+		showAlert(JSON.stringify(q_update_org.data), 'info');
+		if(q_update_org.responseMeta.isExecutionSuccess) {
+			closeModal(modal_update_Org.name);
+			this.update_dados();
+		}
+		else
+			showAlert('ERRO AO ATUALIZAR ORG!','Error');
+	},
 	users_create: async()=>{
 		//chamada pela form de update de user
 		const params = {
